@@ -1,0 +1,132 @@
+<mvc:View
+   controllerName="Project.Controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:grid="sap.ui.layout.cssgrid"
+    xmlns:core="sap.ui.core">
+    <Shell>
+
+		<App>
+			<pages>
+				<Page title="{i18n>homePageTitle}" class="card">
+					<content>
+   <Panel 
+      headerText="{i18n>EmployeePannelTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto"
+      >
+      <content >
+
+      
+
+
+                <!--<core:Icon
+                    src="sap-icon://offsite-work"
+                    size="8rem"
+                    class="sapUiMediumMargin"/>
+                <core:Icon
+                    src="sap-icon://customer"
+                    size="8rem"
+                    class="sapUiMediumMargin"/>
+                <core:Icon
+                    src="sap-icon://wallet"
+                    size="8rem"
+                    class="sapUiMediumMargin"/>
+                <core:Icon
+                    src="sap-icon://contacts"
+                    size="8rem"
+                    class="sapUiMediumMargin"/>
+                <core:Icon
+                    src="sap-icon://home"
+                    size="8rem"
+                    class="sapUiMediumMargin"/>-->
+        
+        
+        
+        
+        
+        <grid:CSSGrid
+			id="grid1"
+			gridTemplateColumns="1fr"
+			gridGap="1rem"
+            items="{emplst>/Companies}"
+            class="transperant_round_corner"
+            >
+        
+            <grid:items>
+            <VBox>
+                
+                <Panel expandable="true" headerText="{emplst>Cmp_name}" width="auto" class="sapUiResponsiveMargin">
+                    <Text text="No.of Employees {emplst>Employee_count}"/>
+		            <content>
+                        <grid:CSSGrid
+                                            id="innerGrid0"
+                                            gridTemplateColumns="1fr 2fr 2fr 2fr 2fr"
+                                            class="sapUiResponsiveMargin">
+                        <Text text=""/>
+                        <Text text="Name" class="BigText sapUiResponsiveMargin"/>
+                        <Text text="Date of Joining" class="BigText sapUiResponsiveMargin"/>
+                        <Text text="Designation" class="BigText sapUiResponsiveMargin"/>
+                        <Text text="Salary" class="BigText sapUiResponsiveMargin"/>
+                        </grid:CSSGrid>
+			            <List
+                   items="{emplst>Employees}">
+                            <CustomListItem
+                            class="round_corner sapUiSmallMargin lll">
+                                            <grid:CSSGrid
+                                            id="innerGrid"
+                                            gridTemplateColumns="1fr 2fr 2fr 2fr 2fr">
+                                                                <core:Icon
+                                                                    src="sap-icon://customer"
+                                                                    size="3rem"
+                                                                    class="sapUiResponsiveMargin"/>
+                                                                <Link   text="{
+                                                                    parts:[
+                                                                    {path : 'emplst>name'},{path : 'emplst>lname'},{path : 'emplst>gender'}
+                                                                    ]
+                                                                    ,
+                                                                    formatter : '.titleFormatter'}" class="BigText sapUiResponsiveMargin" press=".detailViewDialogue($event)"/>
+                                                                <Text text="{
+                                                                                path: 'emplst>DOJ',
+                                                                                type: 'sap.ui.model.type.Date',
+                                                                                formatOptions: {
+                                                                                source: {
+                                                                                    pattern: 'yyyy-MM-ddTHH:mm:ss.000Z'
+                                                                                },
+                                                                                pattern: 'yyyy/MM/dd'
+                                                                                }
+                                                                            }" class="BigText sapUiResponsiveMargin" />
+                                                                <Text text="{emplst>Designation}" class="BigText sapUiResponsiveMargin"/>
+                                                                <ObjectNumber
+                                                                            number="{
+                                                                                path: 'emplst>sallary',
+                                                                                formatter: '.currencyFormatter'
+                                                                            }"
+                                                                            state="{
+                                                                                path: 'emplst>sallary',
+                                                                                formatter: '.tenKFormatter'
+                                                                            }"
+                                                                            unit="INR"
+                                                                            class="BigText sapUiResponsiveMargin"
+                                                                            />
+                                            </grid:CSSGrid>   
+                            </CustomListItem>            
+                    </List>
+		            </content>
+	            </Panel>
+                   
+                
+
+                </VBox>
+                 
+            </grid:items>
+		</grid:CSSGrid>    
+        
+      </content>
+   </Panel>
+   </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

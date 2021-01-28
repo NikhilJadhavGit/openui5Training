@@ -1,0 +1,221 @@
+{
+    "Companies":[
+        {   
+            "Cmp_name":"Company1",
+            "Employee_count":"5",
+            "Employees":[
+                            {
+                                "Employee":"Employee1",
+                                "name":"ABC",
+                                "lname":"XYZ",
+                                "DOJ":"2000-06-24T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"10000",
+                                "DOB":"1980-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"9421255405",
+                                "address":"Pune"
+                                
+                            },
+
+                            {
+                                "Employee":"Employee2",
+                                "name":"DEF",
+                                "lname":"XYZ",
+                                "DOJ":"2005-08-05T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"20000",
+                                "DOB":"1977-03-16T07:00:00.000Z",
+                                "gender":"F",
+                                "Phno":"7410106235",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee3",
+                                "name":"GHI",
+                                "lname":"XYZ",
+                                "DOJ":"2007-06-11T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"30000",
+                                "DOB":"1973-03-16T07:00:00.000Z",
+                                "gender":"F",
+                                "Phno":"9511878505",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee4",
+                                "name":"JKL",
+                                "lname":"XYZ",
+                                "DOJ":"1977-04-28T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"40000",
+                                "DOB":"1947-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"9970023149",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee5",
+                                "name":"MNO",
+                                "lname":"XYZ",
+                                "DOJ":"2020-03-16T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"50000",
+                                "DOB":"2000-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"967378425",
+                                "address":"Pune"
+                                
+                            }
+                        ]
+        },
+        {   
+            "Cmp_name":"Company2",
+            "Employee_count":"5",
+            "Employees":[
+                            {
+                                "Employee":"Employee1",
+                                "name":"ABC",
+                                "lname":"XYZ",
+                                "DOJ":"2000-06-24T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"10000",
+                                "DOB":"1980-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"9421255405",
+                                "address":"Pune"
+                                
+                            },
+
+                            {
+                                "Employee":"Employee2",
+                                "name":"DEF",
+                                "lname":"XYZ",
+                                "DOJ":"2005-08-05T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"20000",
+                                "DOB":"1977-03-16T07:00:00.000Z",
+                                "gender":"F",
+                                "Phno":"7410106235",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee3",
+                                "name":"GHI",
+                                "lname":"XYZ",
+                                "DOJ":"2007-06-11T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"30000",
+                                "DOB":"1973-03-16T07:00:00.000Z",
+                                "gender":"F",
+                                "Phno":"9511878505",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee4",
+                                "name":"JKL",
+                                "lname":"XYZ",
+                                "DOJ":"1977-04-28T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"40000",
+                                "DOB":"1947-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"9970023149",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee5",
+                                "name":"MNO",
+                                "lname":"XYZ",
+                                "DOJ":"2020-03-16T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"50000",
+                                "DOB":"2000-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"967378425",
+                                "address":"Pune"
+                                
+                            }
+                        ]
+        },
+        {   
+            "Cmp_name":"Company3",
+            "Employee_count":"5",
+            "Employees":[
+                            {
+                                "Employee":"Employee1",
+                                "name":"ABC",
+                                "lname":"XYZ",
+                                "DOJ":"2000-06-24T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"10000",
+                                "DOB":"1980-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"9421255405",
+                                "address":"Pune"
+                                
+                            },
+
+                            {
+                                "Employee":"Employee2",
+                                "name":"DEF",
+                                "lname":"XYZ",
+                                "DOJ":"2005-08-05T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"20000",
+                                "DOB":"1977-03-16T07:00:00.000Z",
+                                "gender":"F",
+                                "Phno":"7410106235",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee3",
+                                "name":"GHI",
+                                "lname":"XYZ",
+                                "DOJ":"2007-06-11T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"30000",
+                                "DOB":"1973-03-16T07:00:00.000Z",
+                                "gender":"F",
+                                "Phno":"9511878505",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee4",
+                                "name":"JKL",
+                                "lname":"XYZ",
+                                "DOJ":"1977-04-28T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"40000",
+                                "DOB":"1947-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"9970023149",
+                                "address":"Pune"
+                                
+                            },
+                            {
+                                "Employee":"Employee5",
+                                "name":"MNO",
+                                "lname":"XYZ",
+                                "DOJ":"2020-03-16T07:00:00.000Z",
+                                "Designation":"software developer",
+                                "sallary":"50000",
+                                "DOB":"2000-03-16T07:00:00.000Z",
+                                "gender":"M",
+                                "Phno":"967378425",
+                                "address":"Pune"
+                                
+                            }
+                        ]
+        }
+    ]
+    
+}

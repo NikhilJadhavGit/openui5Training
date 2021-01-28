@@ -1,0 +1,47 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core">
+   <Dialog class="round_corner BigText sapUiResponsiveMargin"
+      id="EmployeeDetailDialogue"
+      title="{
+                  parts:[
+                     {path : 'emplst>name'},{path : 'emplst>lname'},{path : 'emplst>gender'}
+                        ]
+                      ,
+                      formatter : '.titleFormatter'}">
+      <List>
+				<DisplayListItem
+					label="Date of Birth"
+					value="{
+                              path: 'emplst>DOB',
+                              type: 'sap.ui.model.type.Date',
+                              formatOptions: {
+                                                source: {
+                                                         pattern: 'yyyy-MM-ddTHH:mm:ss.000Z'
+                                                            },
+                                                pattern: 'yyyy/MM/dd'
+                                             }
+                        }" 
+               class="sapUiResponsiveMargin"/>
+				<DisplayListItem
+					label="Gender"
+					value="{path:'emplst>gender',formatter:'.genderFormat'}" 
+               class="sapUiResponsiveMargin"/>
+				<DisplayListItem
+					label="Mobile"
+					value="{emplst>Phno}"
+               class="sapUiResponsiveMargin"/>
+				<DisplayListItem
+					label="Address"
+					value="{emplst>address}"
+               class="sapUiResponsiveMargin"/>
+			</List>
+      
+        <Button
+         icon="sap-icon://accept"
+         text="{i18n>addbtn}"
+         press=".onCloseDialog"
+         class="myCustomButton sapUiResponsiveMargin"/>     
+        
+   </Dialog>
+</core:FragmentDefinition>
