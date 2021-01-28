@@ -20,7 +20,7 @@
     },
     "sap.ui5": {
       "rootView": {
-          "viewName": "Project.view.App",
+          "viewName": "Project.View.App",
           "type": "XML",
           "async": true,
           "id": "app"
